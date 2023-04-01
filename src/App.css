@@ -22,12 +22,74 @@
 
 .todo {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 20rem;
   margin: 10px 0;
 }
+.todoText{
+  font-weight: bold;
+  cursor: pointer;
+}
 .completed {
   text-decoration: line-through;
   color: #ccc;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 3px;
+  outline: none;
+  width: 250px;
+}
+input:focus {
+  border: 2px solid blueviolet;
+}
+.foromControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20rem;
+  margin-bottom: 20px;
+}
+.btn {
+  color: #6d28d9;
+  background-color: #fff;
+  border: 1px solid #6d28d9;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.remove {
+  color: rgb(236, 68, 68);
+  border: 1px solid rgb(236, 68, 68);
+  margin-left: 10px;
+}
+
+.addTodo {
+  color: #fff;
+  background-color: #6d28d9;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+header span{
+  margin-right:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  background-color: #d0c7f7;
+  color: #6d28d9;
+  border-radius: 50%;
+
 }
